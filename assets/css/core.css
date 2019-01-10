@@ -1,0 +1,32 @@
+/* this alone will solve for the mobile view out of the box because we are working with block elements */
+
+*{
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+body > * {
+    border:1px solid #111;
+}
+
+body > header, body > footer {
+    background: #444;
+    color:#eee;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+main{
+    background:#fafafa;
+    height:700px;
+}
+
+main > section {
+    background: #ccc;
+}
+
+main > aside {
+    background: #9c9000;
+}
