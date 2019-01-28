@@ -4,22 +4,27 @@
         display: flex;
         flex-direction: column;
     }
+    
     main {
         display: flex;
         flex-direction: row;
     }
+
     main > nav {
         order: 1;
         width: 150px;
     }
+
     main > section {
         order: 2;
         width:100%;
     }
+
     main > aside {
         order: 3;
         width: 150px;
     }
+
     .centered {
         display: flex;
         flex-direction: row;
